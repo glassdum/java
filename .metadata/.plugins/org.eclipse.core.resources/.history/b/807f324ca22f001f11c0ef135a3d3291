@@ -1,0 +1,44 @@
+package sec05;
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class Test001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		Random random = new Random();
+		
+		int m = 5, n = 10;
+		double p = 0.3;
+		int all = m * n;
+		
+		int[] game1 = new int[m * n];
+		double[] game2 = new double[m * n];
+		char[] game3 = new char[m * n];
+		
+		for(int i = 0; i < all; i++) {
+			game1[i] = 0;
+			game2[i] = random.nextDouble(p);
+			if(game2[i] >= 0.2) {
+				game3[i] = '*';
+			} else {
+				game3[i] = '-';
+			}
+			
+			if(i%10 == 0) {
+				System.out.println(game3[i] + " ");
+			} else {
+				System.out.print(game3[i] + " ");
+			}
+		}
+		
+		
+		
+		
+		
+		in.close();
+	}
+
+}

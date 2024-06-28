@@ -1,0 +1,43 @@
+package selfTest;
+
+import java.util.*;
+
+public class Test002 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car2 myCar = new Car2("그랜저");
+		Car2 yourCar = new Car2("그랜저");
+		
+		if(myCar.equals(yourCar)) {
+			System.out.printf("자동차 모델이 둘 다 [%s]로 동일하다.",myCar.toString());
+		}else {
+			System.out.printf("내 자동차[%s], 너 자동차 [%s]로 모델이 다르다.",myCar.toString(),yourCar.toString());
+		}
+	}
+
+}
+class Car2 {
+	private String model;
+	
+	public Car2(String model) {
+		this.model = model;
+	}
+	
+	
+	public boolean equals(Object obj) {
+		if(obj instanceof Car2) {
+			Car2 c = (Car2) obj;
+			if(model.equals(c.model)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public String toString() {
+		return "차량입니다.";
+	}
+	
+	
+}

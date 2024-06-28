@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="sec04.Gender2"/>
+    <fullyQualifiedTypeName name="sec06.One"/>
+    <fullyQualifiedTypeName name="sec03.Computer"/>
+    <fullyQualifiedTypeName name="sec03.Controllable"/>
+    <fullyQualifiedTypeName name="sec03.TV"/>
+    <fullyQualifiedTypeName name="sec05.MemberClassDemo"/>
+    <fullyQualifiedTypeName name="sec05.MemberClassDemo.MemberClass"/>
+    <fullyQualifiedTypeName name="sec05.Icon.Touchable"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+</qualifiedTypeNameHistroy>
